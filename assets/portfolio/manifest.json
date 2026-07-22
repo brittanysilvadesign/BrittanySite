@@ -1,0 +1,596 @@
+{
+  "public-sector": [
+    {
+      "file": "inside-polk-01-25-2024-brittany-silva-000200-jc.png",
+      "type": "image",
+      "medium": "digital",
+      "title": "Inside Polk 2024 Brittany Silva JC"
+    },
+    {
+      "file": "tpo-on-the-go-info-mobility-briefs.pdf",
+      "thumb": "tpo-on-the-go-info-mobility-briefs-thumb.jpg",
+      "type": "pdf",
+      "medium": "print",
+      "title": "TPO On The Go Info Mobility Briefs"
+    },
+    {
+      "file": "clip-of-on-the-go.jpg",
+      "type": "image",
+      "medium": "digital",
+      "title": "Clip Of On The Go"
+    },
+    {
+      "file": "15-fireworks-at-the-fountain-flyer.jpg",
+      "type": "image",
+      "medium": "print",
+      "title": "Fireworks At The Fountain Flyer"
+    },
+    {
+      "file": "ada-tpo-year-in-review-2025.pdf",
+      "thumb": "ada-tpo-year-in-review-2025-thumb.jpg",
+      "type": "pdf",
+      "medium": "print",
+      "title": "ADA TPO Year In Review 2025"
+    },
+    {
+      "file": "bone-builders-rack-card-2026.pdf",
+      "thumb": "bone-builders-rack-card-2026-thumb.jpg",
+      "type": "pdf",
+      "medium": "print",
+      "title": "Bone Builders Rack Card 2026"
+    },
+    {
+      "file": "hnd-housing-repair-outreach-event-flyer.pdf",
+      "thumb": "hnd-housing-repair-outreach-event-flyer-thumb.jpg",
+      "type": "pdf",
+      "medium": "print",
+      "title": "HND Housing Repair Outreach Event Flyer"
+    },
+    {
+      "file": "healthy-families-2023-3rd-quarterly-training-retreat-oct-6.pdf",
+      "thumb": "healthy-families-2023-3rd-quarterly-training-retreat-oct-6-thumb.jpg",
+      "type": "pdf",
+      "medium": "print",
+      "title": "Healthy Families 2023 3rd Quarterly Training Retreat Oct 6"
+    },
+    {
+      "file": "healthy-families-2026-graduation-party-flyer.pdf",
+      "thumb": "healthy-families-2026-graduation-party-flyer-thumb.jpg",
+      "type": "pdf",
+      "medium": "print",
+      "title": "Healthy Families 2026 Graduation Party Flyer"
+    },
+    {
+      "file": "healthy-families-30th-anniversary-invite.pdf",
+      "thumb": "healthy-families-30th-anniversary-invite-thumb.jpg",
+      "type": "pdf",
+      "medium": "print",
+      "title": "Healthy Families 30th Anniversary Invite"
+    },
+    {
+      "file": "healthy-families-march-2026-quarterly-training-retreat.pdf",
+      "thumb": "healthy-families-march-2026-quarterly-training-retreat-thumb.jpg",
+      "type": "pdf",
+      "medium": "print",
+      "title": "Healthy Families March 2026 Quarterly Training Retreat"
+    },
+    {
+      "file": "history-center-2024-shady-oaks-gardens-historial-marker-ceremony.jpg",
+      "type": "image",
+      "medium": "print",
+      "title": "History Center 2024 Shady Oaks Gardens Historial Marker Ceremony"
+    },
+    {
+      "file": "history-center-2026-architectural-tour-flyer.jpg",
+      "type": "image",
+      "medium": "print",
+      "title": "History Center 2026 Architectural Tour Flyer"
+    },
+    {
+      "file": "history-center-artifacts-fall-2023.jpg",
+      "type": "image",
+      "medium": "print",
+      "title": "History Center Artifacts FAll 2023"
+    },
+    {
+      "file": "history-center-march-2024-legacies-exhibit-invitation.jpg",
+      "type": "image",
+      "medium": "print",
+      "title": "History Center March 2024 Legacies Exhibit Invitation"
+    },
+    {
+      "file": "polk-tpo-2023-year-in-review-lm-ada.pdf",
+      "thumb": "polk-tpo-2023-year-in-review-lm-ada-thumb.jpg",
+      "type": "pdf",
+      "medium": "print",
+      "title": "Polk TPO 2023 Year In Review lm ADA"
+    },
+    {
+      "file": "rsvp-rack-card-2026.pdf",
+      "thumb": "rsvp-rack-card-2026-thumb.jpg",
+      "type": "pdf",
+      "medium": "print",
+      "title": "RSVP Rack Card 2026"
+    },
+    {
+      "file": "tip-2024-cover.jpg",
+      "type": "image",
+      "medium": "print",
+      "title": "TIP 2024 Cover"
+    },
+    {
+      "file": "tpo-welcome-book-2026.pdf",
+      "thumb": "tpo-welcome-book-2026-thumb.jpg",
+      "type": "pdf",
+      "medium": "print",
+      "title": "TPO Welcome Book 2026"
+    },
+    {
+      "file": "tpo-2025-26-to-2029-30-tip-adopted-june-12-2025.pdf",
+      "thumb": "tpo-2025-26-to-2029-30-tip-adopted-june-12-2025-thumb.jpg",
+      "type": "pdf",
+      "medium": "print",
+      "title": "TPO 2025 To TIP Adopted June 2025"
+    },
+    {
+      "file": "veteran-services-maximizing-benefits-2023-brochure.pdf",
+      "thumb": "veteran-services-maximizing-benefits-2023-brochure-thumb.jpg",
+      "type": "pdf",
+      "medium": "print",
+      "title": "Veteran Services Maximizing Benefits 2023 Brochure"
+    },
+    {
+      "file": "volunteer-polk-2026-volunteer-recognition-invite.jpg",
+      "type": "image",
+      "medium": "print",
+      "title": "Volunteer Polk 2026 Volunteer Recognition Invite"
+    },
+    {
+      "file": "volunteer-polk-rack-card-2026.pdf",
+      "thumb": "volunteer-polk-rack-card-2026-thumb.jpg",
+      "type": "pdf",
+      "medium": "print",
+      "title": "Volunteer Polk Rack Card 2026"
+    },
+    {
+      "file": "volunteer-polk-2024-volunteer-recognition-invitation-011024.pdf",
+      "thumb": "volunteer-polk-2024-volunteer-recognition-invitation-011024-thumb.jpg",
+      "type": "pdf",
+      "medium": "print",
+      "title": "Volunteer Polk 2024 Volunteer Recognition Invitation"
+    },
+    {
+      "file": "volunteer-polk-2025-volunteer-recognition-invitation.pdf",
+      "thumb": "volunteer-polk-2025-volunteer-recognition-invitation-thumb.jpg",
+      "type": "pdf",
+      "medium": "print",
+      "title": "Volunteer Polk 2025 Volunteer Recognition Invitation"
+    },
+    {
+      "file": "22-good-ol-days-home-graphic-info.jpg",
+      "type": "image",
+      "medium": "social",
+      "title": "Good Ol Days Home Graphic Info"
+    },
+    {
+      "file": "22-rally-in-the-valley-fb-count1.jpg",
+      "type": "image",
+      "medium": "social",
+      "title": "Rally In The Valley FB Count1"
+    },
+    {
+      "file": "hc-social-fb-delta-sigma-opening.jpg",
+      "type": "image",
+      "medium": "social",
+      "title": "HC Social FB Delta Sigma Opening"
+    },
+    {
+      "file": "hnd-housing-repair-fb-021623.jpg",
+      "type": "image",
+      "medium": "social",
+      "title": "HND Housing Repair FB"
+    },
+    {
+      "file": "hr-social-hiring-hr-director-fb.jpg",
+      "type": "image",
+      "medium": "social",
+      "title": "HR Social Hiring HR Director FB"
+    },
+    {
+      "file": "hr-social-ln-hiring-utilities-wp-collections-i.jpg",
+      "type": "image",
+      "medium": "social",
+      "title": "HR Social LN Hiring Utilities WP Collections I"
+    },
+    {
+      "file": "hr-social-ln-hiring-waste-curbside.jpg",
+      "type": "image",
+      "medium": "social",
+      "title": "HR Social LN Hiring Waste Curbside"
+    },
+    {
+      "file": "hr-social-ln-hiring-waste-landfill-maintenance.jpg",
+      "type": "image",
+      "medium": "social",
+      "title": "HR Social LN Hiring Waste Landfill Maintenance"
+    },
+    {
+      "file": "healthy-families-social-parenting-class-building-fb.jpg",
+      "type": "image",
+      "medium": "social",
+      "title": "Healthy Families Social Parenting Class Building FB"
+    },
+    {
+      "file": "hisotry-center-naturalization-ceremony-live-stream-090823.jpg",
+      "type": "image",
+      "medium": "social",
+      "title": "Hisotry Center Naturalization Ceremony Live Stream"
+    },
+    {
+      "file": "history-center-fortner-exhibit-fb.jpg",
+      "type": "image",
+      "medium": "social",
+      "title": "History Center Fortner Exhibit FB"
+    },
+    {
+      "file": "history-center-social-festival-of-wreaths-jingle-mingle-berkley-fb-10-20-2025.jpg",
+      "type": "image",
+      "medium": "social",
+      "title": "History Center Social Festival Of Wreaths Jingle Mingle Berkley FB 2025"
+    },
+    {
+      "file": "history-center-social-festival-of-wreaths-merry-bright-fb.jpg",
+      "type": "image",
+      "medium": "social",
+      "title": "History Center Social Festival Of Wreaths Merry Bright FB"
+    },
+    {
+      "file": "history-center-social-festival-of-wreaths-silent-auction-ends-fb.jpg",
+      "type": "image",
+      "medium": "social",
+      "title": "History Center Social Festival Of Wreaths Silent Auction Ends FB"
+    },
+    {
+      "file": "history-center-social-festival-of-wreaths-selfies-santa-fb-10-20-2025.jpg",
+      "type": "image",
+      "medium": "social",
+      "title": "History Center Social Festival Of Wreaths Selfies Santa FB 2025"
+    },
+    {
+      "file": "rsvp-social-fb-recruit-b2s-big-brother-big-sister.jpg",
+      "type": "image",
+      "medium": "social",
+      "title": "RSVP Social FB Recruit B2S Big Brother Big Sister"
+    },
+    {
+      "file": "social-fb-hurricane-milton-update-debris-hotline-english-rv.jpg",
+      "type": "image",
+      "medium": "social",
+      "title": "Social FB Hurricane Milton Update Debris Hotline English RV"
+    },
+    {
+      "file": "social-fb-hurricane-polksafestrong-flag.jpg",
+      "type": "image",
+      "medium": "social",
+      "title": "Social FB Hurricane PolkSafeStrong Flag"
+    },
+    {
+      "file": "social-hc-library-week.jpg",
+      "type": "image",
+      "medium": "social",
+      "title": "Social HC Library Week"
+    },
+    {
+      "file": "social-polk-cities-exhbit-fb.jpg",
+      "type": "image",
+      "medium": "social",
+      "title": "Social Polk Cities Exhbit FB"
+    },
+    {
+      "file": "social-volunteer-fb-1112023.jpg",
+      "type": "image",
+      "medium": "social",
+      "title": "Social Volunteer FB"
+    },
+    {
+      "file": "tpo-envision2050-promo.jpg",
+      "type": "image",
+      "medium": "social",
+      "title": "TPO Envision2050 Promo"
+    },
+    {
+      "file": "tpo-std-trail-forum-facebook.jpg",
+      "type": "image",
+      "medium": "social",
+      "title": "TPO STD Trail Forum Facebook"
+    },
+    {
+      "file": "tpo-social-new-blog-lrtp.jpg",
+      "type": "image",
+      "medium": "social",
+      "title": "TPO Social New Blog LRTP"
+    },
+    {
+      "file": "tpo-social-trail-forum-share-selfie-fb-3.jpg",
+      "type": "image",
+      "medium": "social",
+      "title": "TPO Social Trail Forum Share Selfie FB 3"
+    },
+    {
+      "file": "tpo-envision2050-facebook-live-stream-2.jpg",
+      "type": "image",
+      "medium": "social",
+      "title": "TPO Envision2050 Facebook Live Stream 2"
+    },
+    {
+      "file": "tpo-social-be-seen-at-night-032824.jpg",
+      "type": "image",
+      "medium": "social",
+      "title": "TPO Social Be Seen At Night"
+    },
+    {
+      "file": "tpo-social-board-meeting-dec-9.jpg",
+      "type": "image",
+      "medium": "social",
+      "title": "TPO Social Board Meeting Dec 9"
+    },
+    {
+      "file": "tpo-vision-zero-fb-event-corridor-public-meetings-kathleen-eng.jpg",
+      "type": "image",
+      "medium": "social",
+      "title": "TPO Vision Zero FB Event Corridor Public Meetings Kathleen ENG"
+    },
+    {
+      "file": "tpo-social-ppp-061323.jpg",
+      "type": "image",
+      "medium": "social",
+      "title": "TPO Social PPP"
+    }
+  ],
+  "hospitality": [
+    {
+      "file": "piates-brochureoutside.jpg",
+      "type": "image",
+      "medium": "print",
+      "title": "Piates Brochureoutside"
+    },
+    {
+      "file": "pirates-car-wrap.jpg",
+      "type": "image",
+      "medium": "print",
+      "title": "Pirates Car Wrap"
+    },
+    {
+      "file": "pirates-show-4x9-rack-card-front.jpg",
+      "type": "image",
+      "medium": "print",
+      "title": "Pirates Show 4x9 Rack Card(Front)"
+    },
+    {
+      "file": "pirates-brochureinside.jpg",
+      "type": "image",
+      "medium": "print",
+      "title": "Pirates Brochureinside"
+    },
+    {
+      "file": "pirates-magazine-ad.jpg",
+      "type": "image",
+      "medium": "print",
+      "title": "Pirates Magazine Ad"
+    },
+    {
+      "file": "pirates-refferal-cards.jpg",
+      "type": "image",
+      "medium": "print",
+      "title": "Pirates Refferal Cards"
+    },
+    {
+      "file": "pirates-ad.jpg",
+      "type": "image",
+      "medium": "social",
+      "title": "Pirates Ad"
+    },
+    {
+      "file": "pirates-fb-ad.jpg",
+      "type": "image",
+      "medium": "social",
+      "title": "Pirates FB Ad"
+    },
+    {
+      "file": "pirates-social-ad.jpg",
+      "type": "image",
+      "medium": "social",
+      "title": "Pirates Social Ad"
+    }
+  ],
+  "publishing": [
+    {
+      "file": "admi-logo.jpg",
+      "type": "image",
+      "medium": "print",
+      "title": "ADMI Logo"
+    },
+    {
+      "file": "ags-orlando-fun-guide-funguide-feb2018-1.jpg",
+      "type": "image",
+      "medium": "print",
+      "title": "AGS Orlando Fun Guide FunGuide Feb2018 1"
+    },
+    {
+      "file": "kgs-jan2018sw.jpg",
+      "type": "image",
+      "medium": "print",
+      "title": "KGS JAN2018SW"
+    },
+    {
+      "file": "kgs-jan2018cover.jpg",
+      "type": "image",
+      "medium": "print",
+      "title": "KGS JAN2018cover"
+    },
+    {
+      "file": "sheraton-vistana-orlando-fun-book-august-2017-january-2018-14.jpg",
+      "type": "image",
+      "medium": "print",
+      "title": "Sheraton Vistana Orlando Fun Book August 2017 January 2018"
+    },
+    {
+      "file": "viva-orlando-december2017disney.jpg",
+      "type": "image",
+      "medium": "print",
+      "title": "Viva Orlando December2017Disney"
+    },
+    {
+      "file": "vivaorlandodecember2017css.jpg",
+      "type": "image",
+      "medium": "print",
+      "title": "VivaOrlandoDecember2017CSS"
+    }
+  ],
+  "freelance": [
+    {
+      "file": "keith-brady-law-1.jpg",
+      "type": "image",
+      "medium": "print",
+      "title": "Keith Brady Law (1)"
+    },
+    {
+      "file": "keith-brady-law-1.png",
+      "type": "image",
+      "medium": "print",
+      "title": "Keith Brady Law (1)"
+    },
+    {
+      "file": "keith-brady-law-2.jpg",
+      "type": "image",
+      "medium": "print",
+      "title": "Keith Brady Law (2)"
+    },
+    {
+      "file": "soaringh2ologo.png",
+      "type": "image",
+      "medium": "print",
+      "title": "SoaringH2Ologo"
+    },
+    {
+      "file": "tara-business-cards.jpg",
+      "type": "image",
+      "medium": "print",
+      "title": "Tara Business Cards"
+    },
+    {
+      "file": "tara-header.jpg",
+      "type": "image",
+      "medium": "print",
+      "title": "Tara Header"
+    },
+    {
+      "file": "tara-logo.jpg",
+      "type": "image",
+      "medium": "print",
+      "title": "Tara Logo"
+    }
+  ],
+  "case-envision": [
+    {
+      "file": "tpo-envision2050-facebook-live-stream-event-header.jpg",
+      "type": "image",
+      "medium": "social",
+      "title": "TPO Envision2050 Facebook Live Stream Event Header"
+    },
+    {
+      "file": "tpo-social-envision2050-website-fb.jpg",
+      "type": "image",
+      "medium": "social",
+      "title": "TPO Social Envision2050 Website FB"
+    },
+    {
+      "file": "envision-intro-video-screnshot.jpg",
+      "type": "image",
+      "medium": "social",
+      "title": "Envision Intro Video Screnshot"
+    },
+    {
+      "file": "envision-2050-over-27-thumb.jpg",
+      "type": "image",
+      "medium": "social",
+      "title": "Envision 2050 Over 27. Thumb"
+    },
+    {
+      "file": "envision-2050-over-27.jpg",
+      "type": "image",
+      "medium": "social",
+      "title": "Envision 2050 Over"
+    }
+  ],
+  "case-tpo": [
+    {
+      "file": "top-tpo-website.jpg",
+      "type": "image",
+      "medium": "digital",
+      "title": "TOP TPO Website"
+    },
+    {
+      "file": "tpo-web-thumb.jpg",
+      "type": "image",
+      "medium": "digital",
+      "title": "TPO Web Thumb"
+    },
+    {
+      "file": "tpohomepage.jpg",
+      "type": "image",
+      "medium": "digital",
+      "title": "TPOhomepage"
+    },
+    {
+      "file": "tpowebsite2.jpg",
+      "type": "image",
+      "medium": "digital",
+      "title": "TPOwebsite2"
+    },
+    {
+      "file": "tpoweb3.jpg",
+      "type": "image",
+      "medium": "digital",
+      "title": "Tpoweb3"
+    },
+    {
+      "file": "tpoweb4.jpg",
+      "type": "image",
+      "medium": "digital",
+      "title": "Tpoweb4"
+    },
+    {
+      "file": "tpoweb5.jpg",
+      "type": "image",
+      "medium": "digital",
+      "title": "Tpoweb5"
+    },
+    {
+      "file": "tpoweb6.jpg",
+      "type": "image",
+      "medium": "digital",
+      "title": "Tpoweb6"
+    }
+  ],
+  "case-pirates": [
+    {
+      "file": "pirates.jpg",
+      "type": "image",
+      "medium": "print",
+      "title": "Pirates"
+    },
+    {
+      "file": "pirates-brochure.jpg",
+      "type": "image",
+      "medium": "print",
+      "title": "Pirates Brochure"
+    },
+    {
+      "file": "pirates-grand-opening-facebook.jpg",
+      "type": "image",
+      "medium": "print",
+      "title": "Pirates Grand Opening Facebook"
+    }
+  ]
+}
