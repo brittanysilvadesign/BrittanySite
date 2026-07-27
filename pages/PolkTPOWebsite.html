@@ -56,7 +56,7 @@
 
   <!-- HERO -->
   <section class="project-hero">
-    <img src="../assets/projects/PolkTPOWebsite/TPOhomepage.jpeg" alt="Polk TPO Website homepage" class="project-hero-img">
+    <img src="../assets/projects/PolkTPOWebsite/TOP_TPO-website.jpg" alt="Polk TPO Website homepage" class="project-hero-img">
     <div class="cs-hero-overlay">
       <span class="cs-eyebrow">Case Study 02</span>
       <h1>Polk TPO &mdash; A digital presence <em>rebuilt</em> from the ground up</h1>
@@ -119,6 +119,11 @@
         across teams. After launch, I managed ongoing updates so the site stayed accurate, performant, and
         relevant as the organization evolved.
       </p>
+      <p>
+        Beyond making planning documents easy to locate, I contributed engaging news and blog content that
+        connected visitors to the TPO's planning efforts &mdash; giving residents a reason to explore the site
+        and stay informed, not just a place to search for a PDF.
+      </p>
     </div>
 
     <blockquote class="cs-quote reveal">
@@ -142,7 +147,7 @@
         </div>
         <div class="cs-impact-card">
           <span class="cs-impact-num">&infin;</span>
-          <p>An ongoing maintenance approach that keeps the site accurate and relevant well past launch.</p>
+          <p>An ongoing maintenance approach that keeps the site accurate and relevant well past launch, working with developers to keep it ADA compliant.</p>
         </div>
       </div>
     </div>
@@ -164,11 +169,26 @@
     <div class="project-gallery reveal">
       <h3>Deliverables</h3>
       <div class="project-gallery-grid">
-        <img src="../assets/projects/PolkTPOWebsite/TPOhomepage.jpeg" alt="TPO homepage redesign">
-        <img src="../assets/projects/PolkTPOWebsite/tpoweb3.jpeg" alt="TPO inner page example">
-        <img src="../assets/projects/PolkTPOWebsite/tpoweb4.jpeg" alt="TPO site section">
-        <img src="../assets/projects/PolkTPOWebsite/tpoweb5.jpeg" alt="TPO content page">
-        <img src="../assets/projects/PolkTPOWebsite/tpoweb6.jpeg" alt="TPO navigation detail">
+        <figure tabindex="0" role="button" aria-label="View TPO homepage redesign">
+          <img src="../assets/projects/PolkTPOWebsite/TPOhomepage.jpeg" alt="TPO homepage redesign">
+          <figcaption>Redesigned homepage leading with an aerial view of Downtown Bartow and a clear &ldquo;Shaping the Future of Transportation&rdquo; message.</figcaption>
+        </figure>
+        <figure tabindex="0" role="button" aria-label="View TPO inner page example">
+          <img src="../assets/projects/PolkTPOWebsite/tpoweb3.jpeg" alt="TPO inner page example">
+          <figcaption>News section spotlighting stories like Citrus Connection&rsquo;s transit milestones and active roadway projects.</figcaption>
+        </figure>
+        <figure tabindex="0" role="button" aria-label="View TPO site section">
+          <img src="../assets/projects/PolkTPOWebsite/tpoweb4.jpeg" alt="TPO site section">
+          <figcaption>Searchable, filterable documents library organizing plans, studies, and data by category.</figcaption>
+        </figure>
+        <figure tabindex="0" role="button" aria-label="View TPO content page">
+          <img src="../assets/projects/PolkTPOWebsite/tpoweb5.jpeg" alt="TPO content page">
+          <figcaption>Plans and projects section highlighting Vision Zero, Complete Streets, and bicycle/pedestrian safety initiatives.</figcaption>
+        </figure>
+        <figure tabindex="0" role="button" aria-label="View TPO navigation detail">
+          <img src="../assets/projects/PolkTPOWebsite/tpoweb6.jpeg" alt="TPO navigation detail">
+          <figcaption>Ways to Comment section pointing residents to social media, the interactive map, surveys, and direct contact.</figcaption>
+        </figure>
       </div>
     </div>
 
@@ -204,14 +224,21 @@
     const closeBtn = lightbox.querySelector('.close');
 
     document.querySelectorAll('.project-gallery-grid img').forEach(img => {
-      img.addEventListener('click', () => {
+      const open = () => {
         lbImg.src = img.src;
         lbImg.alt = img.alt;
         lightbox.classList.add('open');
         lightbox.setAttribute('aria-hidden', 'false');
         document.body.style.overflow = 'hidden';
         closeBtn.focus();
-      });
+      };
+      img.addEventListener('click', open);
+      const fig = img.closest('figure');
+      if (fig) {
+        fig.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); }
+        });
+      }
     });
 
     closeBtn.addEventListener('click', closeLightbox);

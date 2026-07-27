@@ -59,7 +59,7 @@
     <img src="../assets/portfolio/case-envision/envision-2050-over-27.jpg" alt="Envision 2050" class="project-hero-img">
     <div class="cs-hero-overlay">
       <span class="cs-eyebrow">Case Study 01</span>
-      <h1>Envision 2050 &mdash; Making a 30-year plan feel <em>personal</em></h1>
+      <h1>Envision 2050 &mdash; Making a 25-year plan feel <em>personal</em></h1>
       <p class="cs-hero-sub">A countywide long-range transportation campaign that turned dense planning data into a story residents wanted to be part of.</p>
     </div>
   </section>
@@ -144,7 +144,7 @@
         </div>
         <div class="cs-impact-card">
           <span class="cs-impact-num">2050</span>
-          <p>A 30-year planning horizon translated into an accessible, trust-building public narrative.</p>
+          <p>A 25-year planning horizon translated into an accessible, trust-building public narrative.</p>
         </div>
       </div>
     </div>
@@ -165,10 +165,22 @@
     <div class="project-gallery reveal">
       <h3>Deliverables</h3>
       <div class="project-gallery-grid">
-        <img src="../assets/projects/Envision2050/TPO_Envision2050_Facebook_Live_Stream_event-header.jpeg" alt="Envision 2050 Facebook Live header">
-        <img src="../assets/projects/Envision2050/TPO_Social_Envision2050_website_FB.jpeg" alt="Envision 2050 social graphic">
-        <img src="../assets/projects/Envision2050/envision-logos.jpeg" alt="Envision 2050 brand logos">
-        <img src="../assets/projects/Envision2050/envision_2050_over_27._thumb.jpeg" alt="Envision 2050 campaign visual">
+        <figure tabindex="0" role="button" aria-label="View Envision 2050 Facebook Live header">
+          <img src="../assets/projects/Envision2050/TPO_Envision2050_Facebook_Live_Stream_event-header.jpeg" alt="Envision 2050 Facebook Live header">
+          <figcaption>Event header announcing a Facebook Live stream and Q&amp;A session for the Envision 2050 Long Range Transportation Plan.</figcaption>
+        </figure>
+        <figure tabindex="0" role="button" aria-label="View Envision 2050 social graphic">
+          <img src="../assets/projects/Envision2050/TPO_Social_Envision2050_website_FB.jpeg" alt="Envision 2050 social graphic">
+          <figcaption>Social graphic driving traffic to the Envision 2050 campaign site, inviting residents to help shape Polk County&rsquo;s transportation future.</figcaption>
+        </figure>
+        <figure tabindex="0" role="button" aria-label="View Envision 2050 brand logos">
+          <img src="../assets/projects/Envision2050/envision-logos.jpeg" alt="Envision 2050 brand logos">
+          <figcaption>Envision 2050 logo system, including primary and alternate color lockups for use across campaign materials.</figcaption>
+        </figure>
+        <figure tabindex="0" role="button" aria-label="View Envision 2050 campaign visual">
+          <img src="../assets/projects/Envision2050/envision_2050_over_27._thumb.jpeg" alt="Envision 2050 campaign visual">
+          <figcaption>Campaign visual overlaying the Envision 2050 brand on an aerial view of a Polk County corridor.</figcaption>
+        </figure>
       </div>
       <div class="project-video-grid">
         <div class="project-video-embed">
@@ -211,14 +223,21 @@
     const closeBtn = lightbox.querySelector('.close');
 
     document.querySelectorAll('.project-gallery-grid img').forEach(img => {
-      img.addEventListener('click', () => {
+      const open = () => {
         lbImg.src = img.src;
         lbImg.alt = img.alt;
         lightbox.classList.add('open');
         lightbox.setAttribute('aria-hidden', 'false');
         document.body.style.overflow = 'hidden';
         closeBtn.focus();
-      });
+      };
+      img.addEventListener('click', open);
+      const fig = img.closest('figure');
+      if (fig) {
+        fig.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); }
+        });
+      }
     });
 
     closeBtn.addEventListener('click', closeLightbox);
