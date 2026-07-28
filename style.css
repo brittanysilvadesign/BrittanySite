@@ -1392,7 +1392,11 @@ ul { list-style: none; }
 @media (max-width: 640px) {
   :root { --nav-h: 64px; }
 
-  .nav { padding: 0 1.25rem; }
+  .nav {
+    height: auto;
+    min-height: calc(var(--nav-h) - 20px);
+    padding: 0.35rem 1.25rem;
+  }
   .logo { font-size: 1.2rem; }
 
   .nav-links {
