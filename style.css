@@ -108,6 +108,7 @@ ul { list-style: none; }
   font-family: "Fraunces", serif;
   font-size: 1.2rem;
   font-weight: 700;
+  line-height: 1.2;
   color: #fff;
   letter-spacing: -0.01em;
 }
@@ -1389,7 +1390,7 @@ ul { list-style: none; }
 }
 
 @media (max-width: 640px) {
-  :root { --nav-h: 60px; }
+  :root { --nav-h: 64px; }
 
   .nav { padding: 0 1.25rem; }
   .logo { font-size: 1.2rem; }
@@ -1953,8 +1954,8 @@ ul { list-style: none; }
   .nav-links a.linkedin { color: #fff; }
   .nav-links a.linkedin:hover { color: #fff; }
 
-  .theme-toggle { color: var(--text); background: var(--accent-tint); }
-  .theme-toggle:hover { background: var(--mint); }
+  .nav-links .theme-toggle { color: var(--text); background: var(--accent-tint); }
+  .nav-links .theme-toggle:hover { background: var(--mint); }
 
   .work-menu { display: block; }
 
