@@ -119,6 +119,11 @@ ul { list-style: none; }
   gap: 0.25rem;
 }
 
+/* Suppress the mobile menu slide-transition until after first paint so it
+   doesn't animate down across the logo on initial load. JS adds .nav-animate
+   to <html> once the hidden state has painted. */
+html:not(.nav-animate) .nav-links { transition: none !important; }
+
 .nav-links a {
   padding: 0.45rem 0.95rem;
   border-radius: 999px;
