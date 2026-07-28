@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio – Brittany Silva</title>
+  <meta name="description" content="Explore Brittany Silva's strategic communications case studies, campaigns, social media work, and print collateral." />
+  <script>document.documentElement.classList.add('js');(function(){try{var t=localStorage.getItem('theme');if(!t){t=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}if(t==='dark'){document.documentElement.setAttribute('data-theme','dark');}}catch(e){}})();</script>
+  <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Portfolio — Brittany Silva" />
+  <meta property="og:description" content="A portfolio of strategic communications, brand, and design work organized by industry and medium." />
+  <meta property="og:image" content="../assets/og-image.png" />
+  <meta property="og:url" content="https://brittanysilva.example/pages/portfolio.html" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Portfolio — Brittany Silva" />
+  <meta name="twitter:description" content="A portfolio of strategic communications, brand, and design work organized by industry and medium." />
+  <meta name="twitter:image" content="../assets/og-image.png" />
+  <link rel="stylesheet" href="../style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&family=Fraunces:wght@300;700&display=swap" rel="stylesheet">
+  <script src="../assets/site.js" defer></script>
+</head>
+<body>
+  <header class="nav" id="nav">
+    <a href="../index.html" class="nav-brand"><span class="nav-avatar">B</span><span class="logo">Brittany Silva</span></a>
+    <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Toggle menu" aria-controls="nav-links" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-links" id="nav-links">
+      <a href="../index.html">Home</a>
+      <details class="work-menu is-current">
+        <summary class="work-trigger" aria-current="true">Work<span class="work-caret" aria-hidden="true"></span></summary>
+        <div class="work-panel">
+          <p class="work-panel-label">Work by industry</p>
+          <a href="portfolio.html#public-sector"><strong>Local Government &amp; Public Sector</strong><span>Public engagement &amp; civic communications</span></a>
+          <a href="portfolio.html#hospitality"><strong>Hospitality &amp; Entertainment</strong><span>Event marketing &amp; brand experiences</span></a>
+          <a href="portfolio.html#publishing"><strong>Publishing &amp; Editorial</strong><span>Layout &amp; typography-led work</span></a>
+          <a href="portfolio.html#freelance"><strong>Freelance &amp; Small Business</strong><span>Branding for independent clients</span></a>
+          <a href="portfolio.html#browse" class="work-panel-all">Browse all work →</a>
+        </div>
+      </details>
+      <a href="about.html">About</a>
+      <a href="../index.html#contact">Contact</a>
+      <a href="https://www.linkedin.com/in/brittanyasilva/" class="linkedin" target="_blank" rel="noopener" aria-label="LinkedIn profile">
+        <img src="../assets/linkedin.svg" alt="">LinkedIn
+      </a>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <span class="icon-moon" aria-hidden="true">&#9789;</span><span class="icon-sun" aria-hidden="true">&#9728;</span>
+      </button>
+    </nav>
+  </header>
+
+  <section class="portfolio-hero">
+    <div class="portfolio-hero-inner">
+      <p class="section-label">Selected Work</p>
+      <h1 class="section-title">My <em>Portfolio</em></h1>
+      <p>A portfolio organized by industry first and medium second, so the purpose of the work stays visible.</p>
+    </div>
+  </section>
+
+  <main class="portfolio-section">
+    <section id="industries" class="portfolio-intro reveal">
+      <p class="section-label">Work by Industry</p>
+      <h2 class="section-title">A range of communications work, shaped for different <em>audiences.</em></h2>
+      <p class="section-sub">Organized by industry first and medium second, so the purpose of each project stays visible. Use the filter to browse by medium across every sector.</p>
+      <div class="collateral-controls" role="group" aria-label="Filter work by medium">
+        <button class="active" data-filter="all">All</button>
+        <button data-filter="print">Print</button>
+        <button data-filter="social">Social</button>
+        <button data-filter="digital">Digital</button>
+      </div>
+      <p class="filter-count" id="filter-count" aria-live="polite"></p>
+    </section>
+
+    <section id="public-sector" class="industry-section reveal">
+      <div class="industry-heading">
+        <p class="section-label">01 / Local Government &amp; Public Sector</p>
+        <h3>Public-facing work that supports trust, clarity, and participation.</h3>
+        <p>Campaigns, social storytelling, event collateral, and long-form publications produced for Polk County government, the Transportation Planning Organization, and community partners.</p>
+      </div>
+      <div class="featured-cases">
+        <a href="envision2050.html" class="portfolio-card">
+          <img src="../assets/portfolio/case-envision/envision-2050-over-27.jpg" alt="Envision 2050">
+          <div class="portfolio-card-info">
+            <span class="card-tag">Case Study &middot; Branding &amp; Outreach</span>
+            <h4>Envision 2050 &mdash; Polk Long Range Transportation Plan</h4>
+            <p>Public engagement &bull; Brand identity &bull; Strategic communications</p>
+          </div>
+        </a>
+        <a href="PolkTPOWebsite.html" class="portfolio-card">
+          <img src="../assets/portfolio/case-tpo/TOP_TPO-website.jpg" alt="Polk TPO Website">
+          <div class="portfolio-card-info">
+            <span class="card-tag">Case Study &middot; Web &amp; SEO</span>
+            <h4>Polk TPO Website Rebrand &amp; Rebuild</h4>
+            <p>Website rebranding &bull; Project management &bull; SEO</p>
+          </div>
+        </a>
+      </div>
+      <div class="gallery-grid">
+        <figure class="gallery-item" data-medium="digital" tabindex="0" role="button" aria-label="View Inside Polk 2024 Brittany Silva JC">
+          <img loading="lazy" src="../assets/portfolio/public-sector/inside-polk-01-25-2024-brittany-silva-000200-jc.png" data-caption="Video thumbnail for Inside Polk, the county&#8217;s internal employee news series, featuring Brittany on camera." alt="Inside Polk 2024 Brittany Silva JC">
+          <figcaption>Inside Polk 2024 Brittany Silva JC</figcaption>
+        </figure>
+        <a class="gallery-item pdf-card" href="../assets/portfolio/public-sector/tpo-on-the-go-info-mobility-briefs.pdf" target="_blank" rel="noopener" data-medium="print">
+          <img loading="lazy" src="../assets/portfolio/public-sector/tpo-on-the-go-info-mobility-briefs-thumb.jpg" data-caption="Fall 2023 edition of the TPO&#8217;s On the Go mobility brief, recapping board meetings and upcoming public engagement." alt="TPO On The Go Info Mobility Briefs">
+          <span class="pdf-badge">PDF</span>
+          <figcaption>TPO On The Go Info Mobility Briefs</figcaption>
+        </a>
+        <figure class="gallery-item" data-medium="digital" tabindex="0" role="button" aria-label="View Clip Of On The Go">
+          <img loading="lazy" src="../assets/portfolio/public-sector/clip-of-on-the-go.jpg" data-caption="Summer 2023 edition of the TPO&#8217;s On the Go mobility brief, highlighting board actions and an expanded advisory committee." alt="Clip Of On The Go">
+          <figcaption>Clip Of On The Go</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="print" tabindex="0" role="button" aria-label="View Fireworks At The Fountain Flyer">
+          <img loading="lazy" src="../assets/portfolio/public-sector/15-fireworks-at-the-fountain-flyer.jpg" data-caption="Event flyer promoting the county&#8217;s Fourth of July fireworks celebration at Lake Eola Park in Downtown Orlando." alt="Fireworks At The Fountain Flyer">
+          <figcaption>Fireworks At The Fountain Flyer</figcaption>
+        </figure>
+        <a class="gallery-item pdf-card" href="../assets/portfolio/public-sector/ada-tpo-year-in-review-2025.pdf" target="_blank" rel="noopener" data-medium="print">
+          <img loading="lazy" src="../assets/portfolio/public-sector/ada-tpo-year-in-review-2025-thumb.jpg" data-caption="Cover of the Polk TPO&#8217;s 2025 Year in Review, an ADA-accessible report recapping the year&#8217;s transportation planning milestones." alt="ADA TPO Year In Review 2025">
+          <span class="pdf-badge">PDF</span>
+          <figcaption>ADA TPO Year In Review 2025</figcaption>
+        </a>
+        <a class="gallery-item pdf-card" href="../assets/portfolio/public-sector/bone-builders-rack-card-2026.pdf" target="_blank" rel="noopener" data-medium="print">
+          <img loading="lazy" src="../assets/portfolio/public-sector/bone-builders-rack-card-2026-thumb.jpg" data-caption="Rack card promoting Bone Builders, a strength-training program for older adults offered through RSVP Polk." alt="Bone Builders Rack Card 2026">
+          <span class="pdf-badge">PDF</span>
+          <figcaption>Bone Builders Rack Card 2026</figcaption>
+        </a>
+        <a class="gallery-item pdf-card" href="../assets/portfolio/public-sector/hnd-housing-repair-outreach-event-flyer.pdf" target="_blank" rel="noopener" data-medium="print">
+          <img loading="lazy" src="../assets/portfolio/public-sector/hnd-housing-repair-outreach-event-flyer-thumb.jpg" data-caption="Flyer for a Housing &amp; Neighborhood Development outreach event helping residents apply for home repair assistance." alt="HND Housing Repair Outreach Event Flyer">
+          <span class="pdf-badge">PDF</span>
+          <figcaption>HND Housing Repair Outreach Event Flyer</figcaption>
+        </a>
+        <a class="gallery-item pdf-card" href="../assets/portfolio/public-sector/healthy-families-2023-3rd-quarterly-training-retreat-oct-6.pdf" target="_blank" rel="noopener" data-medium="print">
+          <img loading="lazy" src="../assets/portfolio/public-sector/healthy-families-2023-3rd-quarterly-training-retreat-oct-6-thumb.jpg" data-caption="Invitation to Healthy Families Polk&#8217;s third-quarter staff training retreat, focused on safety and self-care." alt="Healthy Families 2023 3rd Quarterly Training Retreat Oct 6">
+          <span class="pdf-badge">PDF</span>
+          <figcaption>Healthy Families 2023 3rd Quarterly Training Retreat Oct 6</figcaption>
+        </a>
+        <a class="gallery-item pdf-card" href="../assets/portfolio/public-sector/healthy-families-2026-graduation-party-flyer.pdf" target="_blank" rel="noopener" data-medium="print">
+          <img loading="lazy" src="../assets/portfolio/public-sector/healthy-families-2026-graduation-party-flyer-thumb.jpg" data-caption="Graduation celebration flyer for Healthy Families Polk parents completing the program&#8217;s parenting curriculum." alt="Healthy Families 2026 Graduation Party Flyer">
+          <span class="pdf-badge">PDF</span>
+          <figcaption>Healthy Families 2026 Graduation Party Flyer</figcaption>
+        </a>
+        <a class="gallery-item pdf-card" href="../assets/portfolio/public-sector/healthy-families-30th-anniversary-invite.pdf" target="_blank" rel="noopener" data-medium="print">
+          <img loading="lazy" src="../assets/portfolio/public-sector/healthy-families-30th-anniversary-invite-thumb.jpg" data-caption="Invitation to Healthy Families Polk&#8217;s 30th anniversary family reunion and graduation celebration." alt="Healthy Families 30th Anniversary Invite">
+          <span class="pdf-badge">PDF</span>
+          <figcaption>Healthy Families 30th Anniversary Invite</figcaption>
+        </a>
+        <a class="gallery-item pdf-card" href="../assets/portfolio/public-sector/healthy-families-march-2026-quarterly-training-retreat.pdf" target="_blank" rel="noopener" data-medium="print">
+          <img loading="lazy" src="../assets/portfolio/public-sector/healthy-families-march-2026-quarterly-training-retreat-thumb.jpg" data-caption="Retro-themed invitation to Healthy Families Polk&#8217;s quarterly staff training retreat." alt="Healthy Families March 2026 Quarterly Training Retreat">
+          <span class="pdf-badge">PDF</span>
+          <figcaption>Healthy Families March 2026 Quarterly Training Retreat</figcaption>
+        </a>
+        <figure class="gallery-item" data-medium="print" tabindex="0" role="button" aria-label="View History Center 2024 Shady Oaks Gardens Historial Marker Ceremony">
+          <img loading="lazy" src="../assets/portfolio/public-sector/history-center-2024-shady-oaks-gardens-historial-marker-ceremony.jpg" data-caption="Invitation to the historical marker dedication ceremony at Shady Oaks Gardens Cemetery, hosted by the Polk County History Center." alt="History Center 2024 Shady Oaks Gardens Historial Marker Ceremony">
+          <figcaption>History Center 2024 Shady Oaks Gardens Historial Marker Ceremony</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="print" tabindex="0" role="button" aria-label="View History Center 2026 Architectural Tour Flyer">
+          <img loading="lazy" src="../assets/portfolio/public-sector/history-center-2026-architectural-tour-flyer.jpg" data-caption="Flyer promoting the History Center&#8217;s guided architectural walking tours of the historic county courthouse." alt="History Center 2026 Architectural Tour Flyer">
+          <figcaption>History Center 2026 Architectural Tour Flyer</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="print" tabindex="0" role="button" aria-label="View History Center Artifacts FAll 2023">
+          <img loading="lazy" src="../assets/portfolio/public-sector/history-center-artifacts-fall-2023.jpg" data-caption="Fall 2023 History Center program flyer for &#8220;Lady Fortitude,&#8221; an exhibit on Delta Sigma Theta and the promise of suffrage." alt="History Center Artifacts FAll 2023">
+          <figcaption>History Center Artifacts FAll 2023</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="print" tabindex="0" role="button" aria-label="View History Center March 2024 Legacies Exhibit Invitation">
+          <img loading="lazy" src="../assets/portfolio/public-sector/history-center-march-2024-legacies-exhibit-invitation.jpg" data-caption="Invitation to &#8220;Legacies in Polk Government Leadership,&#8221; an exhibit opening at the History Center honoring county commissioners." alt="History Center March 2024 Legacies Exhibit Invitation">
+          <figcaption>History Center March 2024 Legacies Exhibit Invitation</figcaption>
+        </figure>
+        <a class="gallery-item pdf-card" href="../assets/portfolio/public-sector/polk-tpo-2023-year-in-review-lm-ada.pdf" target="_blank" rel="noopener" data-medium="print">
+          <img loading="lazy" src="../assets/portfolio/public-sector/polk-tpo-2023-year-in-review-lm-ada-thumb.jpg" data-caption="Cover of the Polk TPO&#8217;s 2023 Year in Review, an ADA-formatted recap of the year&#8217;s transportation planning work." alt="Polk TPO 2023 Year In Review lm ADA">
+          <span class="pdf-badge">PDF</span>
+          <figcaption>Polk TPO 2023 Year In Review lm ADA</figcaption>
+        </a>
+        <a class="gallery-item pdf-card" href="../assets/portfolio/public-sector/rsvp-rack-card-2026.pdf" target="_blank" rel="noopener" data-medium="print">
+          <img loading="lazy" src="../assets/portfolio/public-sector/rsvp-rack-card-2026-thumb.jpg" data-caption="Rack card recruiting volunteers age 55+ for RSVP Polk&#8217;s senior volunteer placement program." alt="RSVP Rack Card 2026">
+          <span class="pdf-badge">PDF</span>
+          <figcaption>RSVP Rack Card 2026</figcaption>
+        </a>
+        <figure class="gallery-item" data-medium="print" tabindex="0" role="button" aria-label="View TIP 2024 Cover">
+          <img loading="lazy" src="../assets/portfolio/public-sector/tip-2024-cover.jpg" data-caption="Cover of the Transportation Improvement Program, the TPO&#8217;s five-year plan for funded transportation projects." alt="TIP 2024 Cover">
+          <figcaption>TIP 2024 Cover</figcaption>
+        </figure>
+        <a class="gallery-item pdf-card" href="../assets/portfolio/public-sector/tpo-welcome-book-2026.pdf" target="_blank" rel="noopener" data-medium="print">
+          <img loading="lazy" src="../assets/portfolio/public-sector/tpo-welcome-book-2026-thumb.jpg" data-caption="Welcome book introducing new members to the Polk Transportation Planning Organization and its mission." alt="TPO Welcome Book 2026">
+          <span class="pdf-badge">PDF</span>
+          <figcaption>TPO Welcome Book 2026</figcaption>
+        </a>
+        <a class="gallery-item pdf-card" href="../assets/portfolio/public-sector/tpo-2025-26-to-2029-30-tip-adopted-june-12-2025.pdf" target="_blank" rel="noopener" data-medium="print">
+          <img loading="lazy" src="../assets/portfolio/public-sector/tpo-2025-26-to-2029-30-tip-adopted-june-12-2025-thumb.jpg" data-caption="Cover of the adopted FY2025/26&#8211;2029/30 Transportation Improvement Program." alt="TPO 2025 To TIP Adopted June 2025">
+          <span class="pdf-badge">PDF</span>
+          <figcaption>TPO 2025 To TIP Adopted June 2025</figcaption>
+        </a>
+        <a class="gallery-item pdf-card" href="../assets/portfolio/public-sector/veteran-services-maximizing-benefits-2023-brochure.pdf" target="_blank" rel="noopener" data-medium="print">
+          <img loading="lazy" src="../assets/portfolio/public-sector/veteran-services-maximizing-benefits-2023-brochure-thumb.jpg" data-caption="Brochure for Polk County Veteran Services, helping veterans understand and maximize their benefits." alt="Veteran Services Maximizing Benefits 2023 Brochure">
+          <span class="pdf-badge">PDF</span>
+          <figcaption>Veteran Services Maximizing Benefits 2023 Brochure</figcaption>
+        </a>
+        <figure class="gallery-item" data-medium="print" tabindex="0" role="button" aria-label="View Volunteer Polk 2026 Volunteer Recognition Invite">
+          <img loading="lazy" src="../assets/portfolio/public-sector/volunteer-polk-2026-volunteer-recognition-invite.jpg" data-caption="Invitation to Volunteer Polk&#8217;s 2026 volunteer recognition dinner and awards ceremony." alt="Volunteer Polk 2026 Volunteer Recognition Invite">
+          <figcaption>Volunteer Polk 2026 Volunteer Recognition Invite</figcaption>
+        </figure>
+        <a class="gallery-item pdf-card" href="../assets/portfolio/public-sector/volunteer-polk-rack-card-2026.pdf" target="_blank" rel="noopener" data-medium="print">
+          <img loading="lazy" src="../assets/portfolio/public-sector/volunteer-polk-rack-card-2026-thumb.jpg" data-caption="Rack card encouraging community members to get involved through Volunteer Polk." alt="Volunteer Polk Rack Card 2026">
+          <span class="pdf-badge">PDF</span>
+          <figcaption>Volunteer Polk Rack Card 2026</figcaption>
+        </a>
+        <a class="gallery-item pdf-card" href="../assets/portfolio/public-sector/volunteer-polk-2024-volunteer-recognition-invitation-011024.pdf" target="_blank" rel="noopener" data-medium="print">
+          <img loading="lazy" src="../assets/portfolio/public-sector/volunteer-polk-2024-volunteer-recognition-invitation-011024-thumb.jpg" data-caption="Invitation to Volunteer Polk&#8217;s 2024 volunteer recognition awards." alt="Volunteer Polk 2024 Volunteer Recognition Invitation">
+          <span class="pdf-badge">PDF</span>
+          <figcaption>Volunteer Polk 2024 Volunteer Recognition Invitation</figcaption>
+        </a>
+        <a class="gallery-item pdf-card" href="../assets/portfolio/public-sector/volunteer-polk-2025-volunteer-recognition-invitation.pdf" target="_blank" rel="noopener" data-medium="print">
+          <img loading="lazy" src="../assets/portfolio/public-sector/volunteer-polk-2025-volunteer-recognition-invitation-thumb.jpg" data-caption="Invitation to Volunteer Polk&#8217;s 2025 volunteer recognition awards." alt="Volunteer Polk 2025 Volunteer Recognition Invitation">
+          <span class="pdf-badge">PDF</span>
+          <figcaption>Volunteer Polk 2025 Volunteer Recognition Invitation</figcaption>
+        </a>
+        <figure class="gallery-item" data-medium="social" tabindex="0" role="button" aria-label="View Good Ol Days Home Graphic Info">
+          <img loading="lazy" src="../assets/portfolio/public-sector/22-good-ol-days-home-graphic-info.jpg" data-caption="Event graphic for the Good Ol&#8217; Days Folk Festival at Homeland Heritage Park." alt="Good Ol Days Home Graphic Info">
+          <figcaption>Good Ol Days Home Graphic Info</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="social" tabindex="0" role="button" aria-label="View Rally In The Valley FB Count1">
+          <img loading="lazy" src="../assets/portfolio/public-sector/22-rally-in-the-valley-fb-count1.jpg" data-caption="Facebook event graphic for Rally in the Valley, a motocross event at the Bone Valley ATV Park." alt="Rally In The Valley FB Count1">
+          <figcaption>Rally In The Valley FB Count1</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="social" tabindex="0" role="button" aria-label="View HC Social FB Delta Sigma Opening">
+          <img loading="lazy" src="../assets/portfolio/public-sector/hc-social-fb-delta-sigma-opening.jpg" data-caption="Social graphic announcing the History Center&#8217;s new long-term exhibit on Delta Sigma Theta&#8217;s century of social action." alt="HC Social FB Delta Sigma Opening">
+          <figcaption>HC Social FB Delta Sigma Opening</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="social" tabindex="0" role="button" aria-label="View HND Housing Repair FB">
+          <img loading="lazy" src="../assets/portfolio/public-sector/hnd-housing-repair-fb-021623.jpg" data-caption="Facebook graphic promoting Polk County&#8217;s housing repair outreach event." alt="HND Housing Repair FB">
+          <figcaption>HND Housing Repair FB</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="social" tabindex="0" role="button" aria-label="View HR Social Hiring HR Director FB">
+          <img loading="lazy" src="../assets/portfolio/public-sector/hr-social-hiring-hr-director-fb.jpg" data-caption="Recruitment graphic for Polk County&#8217;s Human Resources Director opening." alt="HR Social Hiring HR Director FB">
+          <figcaption>HR Social Hiring HR Director FB</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="social" tabindex="0" role="button" aria-label="View HR Social LN Hiring Utilities WP Collections I">
+          <img loading="lazy" src="../assets/portfolio/public-sector/hr-social-ln-hiring-utilities-wp-collections-i.jpg" data-caption="LinkedIn recruitment graphic for a Utilities water/wastewater Collections System Operator position." alt="HR Social LN Hiring Utilities WP Collections I">
+          <figcaption>HR Social LN Hiring Utilities WP Collections I</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="social" tabindex="0" role="button" aria-label="View HR Social LN Hiring Waste Curbside">
+          <img loading="lazy" src="../assets/portfolio/public-sector/hr-social-ln-hiring-waste-curbside.jpg" data-caption="Recruitment graphic for a Solid Waste residential curbside collection specialist role." alt="HR Social LN Hiring Waste Curbside">
+          <figcaption>HR Social LN Hiring Waste Curbside</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="social" tabindex="0" role="button" aria-label="View HR Social LN Hiring Waste Landfill Maintenance">
+          <img loading="lazy" src="../assets/portfolio/public-sector/hr-social-ln-hiring-waste-landfill-maintenance.jpg" data-caption="Recruitment graphic for a Solid Waste landfill maintenance technician position." alt="HR Social LN Hiring Waste Landfill Maintenance">
+          <figcaption>HR Social LN Hiring Waste Landfill Maintenance</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="social" tabindex="0" role="button" aria-label="View Healthy Families Social Parenting Class Building FB">
+          <img loading="lazy" src="../assets/portfolio/public-sector/healthy-families-social-parenting-class-building-fb.jpg" data-caption="Social graphic promoting Healthy Families Polk&#8217;s parent-child bonding class." alt="Healthy Families Social Parenting Class Building FB">
+          <figcaption>Healthy Families Social Parenting Class Building FB</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="social" tabindex="0" role="button" aria-label="View Hisotry Center Naturalization Ceremony Live Stream">
+          <img loading="lazy" src="../assets/portfolio/public-sector/hisotry-center-naturalization-ceremony-live-stream-090823.jpg" data-caption="Livestream announcement for a Constitution Week naturalization ceremony hosted at the History Center." alt="Hisotry Center Naturalization Ceremony Live Stream">
+          <figcaption>Hisotry Center Naturalization Ceremony Live Stream</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="social" tabindex="0" role="button" aria-label="View History Center Fortner Exhibit FB">
+          <img loading="lazy" src="../assets/portfolio/public-sector/history-center-fortner-exhibit-fb.jpg" data-caption="Social graphic for &#8220;Memories of Bone Valley,&#8221; a History Center exhibit featuring Ed Fortner&#8217;s artwork." alt="History Center Fortner Exhibit FB">
+          <figcaption>History Center Fortner Exhibit FB</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="social" tabindex="0" role="button" aria-label="View History Center Social Festival Of Wreaths Jingle Mingle Berkley FB 2025">
+          <img loading="lazy" src="../assets/portfolio/public-sector/history-center-social-festival-of-wreaths-jingle-mingle-berkley-fb-10-20-2025.jpg" data-caption="Event graphic for Jingle &amp; Mingle, a holiday chorus performance during the History Center&#8217;s Festival of Wreaths." alt="History Center Social Festival Of Wreaths Jingle Mingle Berkley FB 2025">
+          <figcaption>History Center Social Festival Of Wreaths Jingle Mingle Berkley FB 2025</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="social" tabindex="0" role="button" aria-label="View History Center Social Festival Of Wreaths Merry Bright FB">
+          <img loading="lazy" src="../assets/portfolio/public-sector/history-center-social-festival-of-wreaths-merry-bright-fb.jpg" data-caption="Social graphic for the History Center&#8217;s Merry &amp; Bright wreath display during the Festival of Wreaths." alt="History Center Social Festival Of Wreaths Merry Bright FB">
+          <figcaption>History Center Social Festival Of Wreaths Merry Bright FB</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="social" tabindex="0" role="button" aria-label="View History Center Social Festival Of Wreaths Silent Auction Ends FB">
+          <img loading="lazy" src="../assets/portfolio/public-sector/history-center-social-festival-of-wreaths-silent-auction-ends-fb.jpg" data-caption="Reminder graphic for the closing of the History Center&#8217;s Festival of Wreaths silent auction." alt="History Center Social Festival Of Wreaths Silent Auction Ends FB">
+          <figcaption>History Center Social Festival Of Wreaths Silent Auction Ends FB</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="social" tabindex="0" role="button" aria-label="View History Center Social Festival Of Wreaths Selfies Santa FB 2025">
+          <img loading="lazy" src="../assets/portfolio/public-sector/history-center-social-festival-of-wreaths-selfies-santa-fb-10-20-2025.jpg" data-caption="Event graphic for Selfies with Santa during the History Center&#8217;s Festival of Wreaths." alt="History Center Social Festival Of Wreaths Selfies Santa FB 2025">
+          <figcaption>History Center Social Festival Of Wreaths Selfies Santa FB 2025</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="social" tabindex="0" role="button" aria-label="View RSVP Social FB Recruit B2S Big Brother Big Sister">
+          <img loading="lazy" src="../assets/portfolio/public-sector/rsvp-social-fb-recruit-b2s-big-brother-big-sister.jpg" data-caption="Recruitment graphic for RSVP Polk&#8217;s Back to School volunteer program supporting Big Brothers Big Sisters." alt="RSVP Social FB Recruit B2S Big Brother Big Sister">
+          <figcaption>RSVP Social FB Recruit B2S Big Brother Big Sister</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="social" tabindex="0" role="button" aria-label="View Social FB Hurricane Milton Update Debris Hotline English RV">
+          <img loading="lazy" src="../assets/portfolio/public-sector/social-fb-hurricane-milton-update-debris-hotline-english-rv.jpg" data-caption="Public safety graphic sharing the residential debris collection hotline during Hurricane Milton recovery." alt="Social FB Hurricane Milton Update Debris Hotline English RV">
+          <figcaption>Social FB Hurricane Milton Update Debris Hotline English RV</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="social" tabindex="0" role="button" aria-label="View Social FB Hurricane PolkSafeStrong Flag">
+          <img loading="lazy" src="../assets/portfolio/public-sector/social-fb-hurricane-polksafestrong-flag.jpg" data-caption="#PolkSafeStrong storm-preparedness graphic issued ahead of Hurricane Milton." alt="Social FB Hurricane PolkSafeStrong Flag">
+          <figcaption>Social FB Hurricane PolkSafeStrong Flag</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="social" tabindex="0" role="button" aria-label="View Social HC Library Week">
+          <img loading="lazy" src="../assets/portfolio/public-sector/social-hc-library-week.jpg" data-caption="Social graphic celebrating National Library Week with the History Center&#8217;s 1950 Census research resources." alt="Social HC Library Week">
+          <figcaption>Social HC Library Week</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="social" tabindex="0" role="button" aria-label="View Social Polk Cities Exhbit FB">
+          <img loading="lazy" src="../assets/portfolio/public-sector/social-polk-cities-exhbit-fb.jpg" data-caption="Social graphic for the History Center&#8217;s Cities of Polk exhibit." alt="Social Polk Cities Exhbit FB">
+          <figcaption>Social Polk Cities Exhbit FB</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="social" tabindex="0" role="button" aria-label="View Social Volunteer FB">
+          <img loading="lazy" src="../assets/portfolio/public-sector/social-volunteer-fb-1112023.jpg" data-caption="Recruitment graphic encouraging residents to find volunteer opportunities through Volunteer Polk." alt="Social Volunteer FB">
+          <figcaption>Social Volunteer FB</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="social" tabindex="0" role="button" aria-label="View TPO Envision2050 Promo">
+          <img loading="lazy" src="../assets/portfolio/public-sector/tpo-envision2050-promo.jpg" data-caption="Promotional graphic for Envision 2050, inviting the public to help shape Polk County&#8217;s transportation future." alt="TPO Envision2050 Promo">
+          <figcaption>TPO Envision2050 Promo</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="social" tabindex="0" role="button" aria-label="View TPO STD Trail Forum Facebook">
+          <img loading="lazy" src="../assets/portfolio/public-sector/tpo-std-trail-forum-facebook.jpg" data-caption="Save-the-date graphic for the Parks and Urban Trails community forum in Downtown Winter Haven." alt="TPO STD Trail Forum Facebook">
+          <figcaption>TPO STD Trail Forum Facebook</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="social" tabindex="0" role="button" aria-label="View TPO Social New Blog LRTP">
+          <img loading="lazy" src="../assets/portfolio/public-sector/tpo-social-new-blog-lrtp.jpg" data-caption="Blog announcement graphic for the Envision 2050 Long Range Transportation Plan." alt="TPO Social New Blog LRTP">
+          <figcaption>TPO Social New Blog LRTP</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="social" tabindex="0" role="button" aria-label="View TPO Social Trail Forum Share Selfie FB 3">
+          <img loading="lazy" src="../assets/portfolio/public-sector/tpo-social-trail-forum-share-selfie-fb-3.jpg" data-caption="Social graphic inviting residents to share trail selfies for a chance to win, promoting Polk County&#8217;s Parks and Urban Trails." alt="TPO Social Trail Forum Share Selfie FB 3">
+          <figcaption>TPO Social Trail Forum Share Selfie FB 3</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="social" tabindex="0" role="button" aria-label="View TPO Envision2050 Facebook Live Stream 2">
+          <img loading="lazy" src="../assets/portfolio/public-sector/tpo-envision2050-facebook-live-stream-2.jpg" data-caption="Announcement graphic for a live Q&amp;A stream during the Envision 2050 planning process." alt="TPO Envision2050 Facebook Live Stream 2">
+          <figcaption>TPO Envision2050 Facebook Live Stream 2</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="social" tabindex="0" role="button" aria-label="View TPO Social Be Seen At Night">
+          <img loading="lazy" src="../assets/portfolio/public-sector/tpo-social-be-seen-at-night-032824.jpg" data-caption="Pedestrian safety graphic illustrating visibility distances for reflective gear at night." alt="TPO Social Be Seen At Night">
+          <figcaption>TPO Social Be Seen At Night</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="social" tabindex="0" role="button" aria-label="View TPO Social Board Meeting Dec 9">
+          <img loading="lazy" src="../assets/portfolio/public-sector/tpo-social-board-meeting-dec-9.jpg" data-caption="Livestream announcement for the Polk TPO&#8217;s December board meeting." alt="TPO Social Board Meeting Dec 9">
+          <figcaption>TPO Social Board Meeting Dec 9</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="social" tabindex="0" role="button" aria-label="View TPO Vision Zero FB Event Corridor Public Meetings Kathleen ENG">
+          <img loading="lazy" src="../assets/portfolio/public-sector/tpo-vision-zero-fb-event-corridor-public-meetings-kathleen-eng.jpg" data-caption="Event graphic for a Vision Zero community workshop on safer streets." alt="TPO Vision Zero FB Event Corridor Public Meetings Kathleen ENG">
+          <figcaption>TPO Vision Zero FB Event Corridor Public Meetings Kathleen ENG</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="social" tabindex="0" role="button" aria-label="View TPO Social PPP">
+          <img loading="lazy" src="../assets/portfolio/public-sector/tpo-social-ppp-061323.jpg" data-caption="Announcement graphic for the Polk TPO&#8217;s Public Participation Plan comment period." alt="TPO Social PPP">
+          <figcaption>TPO Social PPP</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="hospitality" class="industry-section reveal">
+      <div class="industry-heading">
+        <p class="section-label">02 / Hospitality &amp; Entertainment</p>
+        <h3>Experiences built to feel memorable, immersive, and immediate.</h3>
+        <p>Brand and campaign work for Pirate&rsquo;s Dinner Adventure&rsquo;s grand reopening &mdash; print collateral, advertising, and social creative that drove it to the #1 Orlando dinner show.</p>
+      </div>
+      <div class="gallery-grid">
+        <figure class="gallery-item" data-medium="print" tabindex="0" role="button" aria-label="View Piates Brochureoutside">
+          <img loading="lazy" src="../assets/portfolio/hospitality/piates-brochureoutside.jpg" data-caption="Outer panel of the Pirate&#8217;s Dinner Adventure tri-fold brochure, showcasing the show&#8217;s swashbuckling theme." alt="Piates Brochureoutside">
+          <figcaption>Piates Brochureoutside</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="print" tabindex="0" role="button" aria-label="View Pirates Car Wrap">
+          <img loading="lazy" src="../assets/portfolio/hospitality/pirates-car-wrap.jpg" data-caption="Vehicle wrap design promoting Pirate&#8217;s Dinner Adventure&#8217;s Orlando dinner show." alt="Pirates Car Wrap">
+          <figcaption>Pirates Car Wrap</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="print" tabindex="0" role="button" aria-label="View Pirates Show 4x9 Rack Card(Front)">
+          <img loading="lazy" src="../assets/portfolio/hospitality/pirates-show-4x9-rack-card-front.jpg" data-caption="Rack card for Pirate&#8217;s Dinner Adventure&#8217;s &#8220;Secrets of the Deep&#8221; show, driving ticket bookings." alt="Pirates Show 4x9 Rack Card(Front)">
+          <figcaption>Pirates Show 4x9 Rack Card(Front)</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="print" tabindex="0" role="button" aria-label="View Pirates Brochureinside">
+          <img loading="lazy" src="../assets/portfolio/hospitality/pirates-brochureinside.jpg" data-caption="Inner spread of the Pirate&#8217;s Dinner Adventure brochure detailing the dinner show experience." alt="Pirates Brochureinside">
+          <figcaption>Pirates Brochureinside</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="print" tabindex="0" role="button" aria-label="View Pirates Magazine Ad">
+          <img loading="lazy" src="../assets/portfolio/hospitality/pirates-magazine-ad.jpg" data-caption="Print magazine ad billing Pirate&#8217;s Dinner Adventure as the world&#8217;s most interactive dinner show." alt="Pirates Magazine Ad">
+          <figcaption>Pirates Magazine Ad</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="print" tabindex="0" role="button" aria-label="View Pirates Refferal Cards">
+          <img loading="lazy" src="../assets/portfolio/hospitality/pirates-refferal-cards.jpg" data-caption="Referral discount cards offering guests savings on Pirate&#8217;s Dinner Adventure tickets." alt="Pirates Refferal Cards">
+          <figcaption>Pirates Refferal Cards</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="social" tabindex="0" role="button" aria-label="View Pirates Ad">
+          <img loading="lazy" src="../assets/portfolio/hospitality/pirates-ad.jpg" data-caption="Digital ad for Pirate&#8217;s Dinner Adventure&#8217;s &#8220;Secrets of the Deep&#8221; show, driving online ticket bookings." alt="Pirates Ad">
+          <figcaption>Pirates Ad</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="social" tabindex="0" role="button" aria-label="View Pirates FB Ad">
+          <img loading="lazy" src="../assets/portfolio/hospitality/pirates-fb-ad.jpg" data-caption="Facebook ad promoting discounted tickets to Pirate&#8217;s Dinner Adventure." alt="Pirates FB Ad">
+          <figcaption>Pirates FB Ad</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="social" tabindex="0" role="button" aria-label="View Pirates Social Ad">
+          <img loading="lazy" src="../assets/portfolio/hospitality/pirates-social-ad.jpg" data-caption="Social ad promoting a buy-one-get-one-free ticket offer for Pirate&#8217;s Dinner Adventure." alt="Pirates Social Ad">
+          <figcaption>Pirates Social Ad</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="publishing" class="industry-section reveal">
+      <div class="industry-heading">
+        <p class="section-label">03 / Publishing &amp; Editorial</p>
+        <h3>Typographic, layout-driven storytelling with a strong editorial point of view.</h3>
+        <p>Magazine covers, editorial spreads, and destination guide layouts produced for Orlando-area travel and lifestyle publications.</p>
+      </div>
+      <div class="gallery-grid">
+        <figure class="gallery-item" data-medium="print" tabindex="0" role="button" aria-label="View ADMI Logo">
+          <img loading="lazy" src="../assets/portfolio/publishing/admi-logo.jpg" data-caption="Logo design for Adrenaline Media, Inc. (ADMI), a travel and lifestyle publishing company." alt="ADMI Logo">
+          <figcaption>ADMI Logo</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="print" tabindex="0" role="button" aria-label="View AGS Orlando Fun Guide FunGuide Feb2018 1">
+          <img loading="lazy" src="../assets/portfolio/publishing/ags-orlando-fun-guide-funguide-feb2018-1.jpg" data-caption="Cover of the February 2018 Orlando Fun Guide, featuring a SeaWorld dolphin encounter." alt="AGS Orlando Fun Guide FunGuide Feb2018 1">
+          <figcaption>AGS Orlando Fun Guide FunGuide Feb2018 1</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="print" tabindex="0" role="button" aria-label="View KGS JAN2018SW">
+          <img loading="lazy" src="../assets/portfolio/publishing/kgs-jan2018sw.jpg" data-caption="Editorial spread for the January 2018 Kissimmee guide, spotlighting SeaWorld&#8217;s Ray Rush attraction." alt="KGS JAN2018SW">
+          <figcaption>KGS JAN2018SW</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="print" tabindex="0" role="button" aria-label="View KGS JAN2018cover">
+          <img loading="lazy" src="../assets/portfolio/publishing/kgs-jan2018cover.jpg" data-caption="Cover of the January 2018 Kissimmee Guest Services guide, featuring SeaWorld&#8217;s Ray Rush." alt="KGS JAN2018cover">
+          <figcaption>KGS JAN2018cover</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="print" tabindex="0" role="button" aria-label="View Sheraton Vistana Orlando Fun Book August 2017 January 2018">
+          <img loading="lazy" src="../assets/portfolio/publishing/sheraton-vistana-orlando-fun-book-august-2017-january-2018-14.jpg" data-caption="Layout spread from the Sheraton Vistana Resort fun book, featuring SeaWorld&#8217;s Kraken and Pandora attractions." alt="Sheraton Vistana Orlando Fun Book August 2017 January 2018">
+          <figcaption>Sheraton Vistana Orlando Fun Book August 2017 January 2018</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="print" tabindex="0" role="button" aria-label="View Viva Orlando December2017Disney">
+          <img loading="lazy" src="../assets/portfolio/publishing/viva-orlando-december2017disney.jpg" data-caption="Editorial spread from Viva Orlando magazine covering Disney&#8217;s Pandora &#8211; World of Avatar." alt="Viva Orlando December2017Disney">
+          <figcaption>Viva Orlando December2017Disney</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="print" tabindex="0" role="button" aria-label="View VivaOrlandoDecember2017CSS">
+          <img loading="lazy" src="../assets/portfolio/publishing/vivaorlandodecember2017css.jpg" data-caption="Cover of Viva Orlando&#8217;s City Sightseeing guide, featuring the hop-on-hop-off tour bus." alt="VivaOrlandoDecember2017CSS">
+          <figcaption>VivaOrlandoDecember2017CSS</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="freelance" class="industry-section reveal">
+      <div class="industry-heading">
+        <p class="section-label">04 / Freelance &amp; Small Business</p>
+        <h3>Branding and identity work for independent clients with a personal, collaborative approach.</h3>
+        <p>Logo, identity, and collateral systems for independent professionals and small businesses, including Keith Brady Law, Tara Wilfong MD, and Soaring H2O.</p>
+      </div>
+      <div class="gallery-grid">
+        <figure class="gallery-item" data-medium="print" tabindex="0" role="button" aria-label="View Keith Brady Law (1)">
+          <img loading="lazy" src="../assets/portfolio/freelance/keith-brady-law-1.jpg" data-caption="Primary logo design for Keith Brady Law, a Florida vacation rental law firm." alt="Keith Brady Law (1)">
+          <figcaption>Keith Brady Law (1)</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="print" tabindex="0" role="button" aria-label="View Keith Brady Law (1)">
+          <img loading="lazy" src="../assets/portfolio/freelance/keith-brady-law-1.png" data-caption="Brand style guide for Keith Brady Law, defining logo usage, typography, and color palette." alt="Keith Brady Law (1)">
+          <figcaption>Keith Brady Law (1)</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="print" tabindex="0" role="button" aria-label="View Keith Brady Law (2)">
+          <img loading="lazy" src="../assets/portfolio/freelance/keith-brady-law-2.jpg" data-caption="Alternate logo lockup for Keith Brady Law with a gradient color treatment." alt="Keith Brady Law (2)">
+          <figcaption>Keith Brady Law (2)</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="print" tabindex="0" role="button" aria-label="View SoaringH2Ologo">
+          <img loading="lazy" src="../assets/portfolio/freelance/soaringh2ologo.png" data-caption="Logo design for Soaring H2O, featuring a dynamic water-splash mark." alt="SoaringH2Ologo">
+          <figcaption>SoaringH2Ologo</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="print" tabindex="0" role="button" aria-label="View Tara Business Cards">
+          <img loading="lazy" src="../assets/portfolio/freelance/tara-business-cards.jpg" data-caption="Business card design for Tara Wilfong, MD, medical legal consultant." alt="Tara Business Cards">
+          <figcaption>Tara Business Cards</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="print" tabindex="0" role="button" aria-label="View Tara Header">
+          <img loading="lazy" src="../assets/portfolio/freelance/tara-header.jpg" data-caption="Website header graphic for Tara Wilfong, MD&#8217;s medical-legal consulting practice." alt="Tara Header">
+          <figcaption>Tara Header</figcaption>
+        </figure>
+        <figure class="gallery-item" data-medium="print" tabindex="0" role="button" aria-label="View Tara Logo">
+          <img loading="lazy" src="../assets/portfolio/freelance/tara-logo.jpg" data-caption="Logo design for Tara Wilfong, MD, medical legal consultant." alt="Tara Logo">
+          <figcaption>Tara Logo</figcaption>
+        </figure>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Brittany Silva. All rights reserved.</p>
+  </footer>
+
+  <!-- Lightbox -->
+  <div id="lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="lightbox-title">
+    <button class="close" id="lightbox-close" aria-label="Close">&times;</button>
+    <button class="lb-nav lb-prev" id="lightbox-prev" aria-label="Previous artwork">&larr;</button>
+    <button class="lb-nav lb-next" id="lightbox-next" aria-label="Next artwork">&rarr;</button>
+    <div class="lightbox-content">
+      <img id="lightbox-img" src="" alt="">
+      <div class="lightbox-info">
+        <h3 id="lightbox-title"></h3>
+        <p id="lightbox-caption"></p>
+        <a id="lightbox-pdf-link" href="" target="_blank" rel="noopener" class="btn btn-primary" hidden>
+          View Full PDF <span class="btn-arrow" aria-hidden="true">&rarr;</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const filterCount = document.getElementById('filter-count');
+    function applyFilter(filter) {
+      document.querySelectorAll('.collateral-controls button').forEach(b => {
+        b.classList.toggle('active', b.dataset.filter === filter);
+      });
+      let shown = 0;
+      document.querySelectorAll('.gallery-item').forEach(item => {
+        const match = filter === 'all' || item.dataset.medium === filter;
+        item.dataset.hidden = match ? 'false' : 'true';
+        if (match) shown++;
+      });
+      // Featured case studies span multiple media, so only surface them on "All".
+      document.querySelectorAll('.featured-cases').forEach(fc => {
+        fc.dataset.hidden = filter === 'all' ? 'false' : 'true';
+      });
+      document.querySelectorAll('.industry-section').forEach(sec => {
+        const grid = sec.querySelector('.gallery-grid');
+        const visible = grid ? grid.querySelectorAll('.gallery-item:not([data-hidden="true"])').length : 0;
+        const featuredVisible = filter === 'all' && !!sec.querySelector('.featured-cases');
+        sec.dataset.hidden = (visible === 0 && !featuredVisible) ? 'true' : 'false';
+      });
+      if (filterCount) {
+        filterCount.textContent = filter === 'all'
+          ? 'Showing all ' + shown + ' pieces'
+          : 'Showing ' + shown + ' ' + filter + ' ' + (shown === 1 ? 'piece' : 'pieces');
+      }
+    }
+    document.querySelectorAll('.collateral-controls button').forEach(btn => {
+      btn.addEventListener('click', () => applyFilter(btn.dataset.filter));
+    });
+    applyFilter('all');
+
+    const lb = document.getElementById('lightbox');
+    const lbImg = document.getElementById('lightbox-img');
+    const lbTitle = document.getElementById('lightbox-title');
+    const lbCaption = document.getElementById('lightbox-caption');
+    const lbPdfLink = document.getElementById('lightbox-pdf-link');
+    const lbPrev = document.getElementById('lightbox-prev');
+    const lbNext = document.getElementById('lightbox-next');
+    const CAPTION_PLACEHOLDER = 'Project caption coming soon — details on the goal, audience, and outcome behind this piece.';
+
+    let lbItems = [];
+    let lbIndex = -1;
+
+    function itemData(item) {
+      const img = item.querySelector('img');
+      const title = item.querySelector('figcaption') ? item.querySelector('figcaption').textContent : img.alt;
+      const isPdf = item.classList.contains('pdf-card');
+      return {
+        src: img.src,
+        alt: img.alt,
+        title,
+        caption: img.dataset.caption,
+        pdfHref: isPdf ? item.href : null
+      };
+    }
+
+    function renderLb() {
+      const { src, alt, title, caption, pdfHref } = itemData(lbItems[lbIndex]);
+      lbImg.src = src;
+      lbImg.alt = alt || '';
+      lbTitle.textContent = title || '';
+      lbCaption.textContent = caption || CAPTION_PLACEHOLDER;
+      if (pdfHref) {
+        lbPdfLink.href = pdfHref;
+        lbPdfLink.hidden = false;
+      } else {
+        lbPdfLink.hidden = true;
+        lbPdfLink.removeAttribute('href');
+      }
+      lbPrev.hidden = lbIndex <= 0;
+      lbNext.hidden = lbIndex >= lbItems.length - 1;
+    }
+
+    function openLb(items, index) {
+      lbItems = items;
+      lbIndex = index;
+      renderLb();
+      lb.classList.add('open');
+      lb.setAttribute('aria-hidden', 'false');
+    }
+    function closeLb(){
+      lb.classList.remove('open');
+      lb.setAttribute('aria-hidden','true');
+      lbImg.src = '';
+      lbItems = [];
+      lbIndex = -1;
+    }
+    function showPrev() { if (lbIndex > 0) { lbIndex--; renderLb(); } }
+    function showNext() { if (lbIndex < lbItems.length - 1) { lbIndex++; renderLb(); } }
+
+    document.querySelectorAll('.gallery-item').forEach(item => {
+      const isPdf = item.classList.contains('pdf-card');
+      const act = (e) => {
+        if (isPdf) e.preventDefault();
+        const visible = Array.from(document.querySelectorAll('.gallery-item'))
+          .filter(el => el.dataset.hidden !== 'true');
+        openLb(visible, visible.indexOf(item));
+      };
+      item.addEventListener('click', act);
+      item.addEventListener('keydown', e => { if(e.key==='Enter'||e.key===' '){ e.preventDefault(); act(e); }});
+    });
+    document.getElementById('lightbox-close').addEventListener('click', closeLb);
+    lbPrev.addEventListener('click', e => { e.stopPropagation(); showPrev(); });
+    lbNext.addEventListener('click', e => { e.stopPropagation(); showNext(); });
+    lb.addEventListener('click', e => { if(e.target === lb) closeLb(); });
+    document.addEventListener('keydown', e => {
+      if (!lb.classList.contains('open')) return;
+      if (e.key === 'Escape') closeLb();
+      else if (e.key === 'ArrowLeft') showPrev();
+      else if (e.key === 'ArrowRight') showNext();
+    });
+  </script>
+</body>
+</html>
