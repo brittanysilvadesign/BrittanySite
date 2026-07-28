@@ -1977,7 +1977,8 @@ ul { list-style: none; }
 
   .work-menu { display: block; }
 
-  .work-panel {
+  .work-panel,
+  .work-menu[open] .work-panel {
     position: static;
     transform: none;
     width: auto;
