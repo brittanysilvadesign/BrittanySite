@@ -27,8 +27,31 @@
     });
     // Close the dropdown after choosing a destination.
     menu.querySelectorAll('.work-panel a').forEach(function (link) {
-      link.addEventListener('click', function () {
+      link.addEventListener('click', function (event) {
         menu.open = false;
+        // Also close the mobile menu panel if it's open.
+        if (toggle && links && links.classList.contains('open')) {
+          toggle.classList.remove('open');
+          links.classList.remove('open');
+          toggle.setAttribute('aria-expanded', 'false');
+        }
+        // For links that point to a section on the current page, handle the
+        // scroll ourselves. A plain hash change can silently fail when a medium
+        // filter has hidden the target section (display:none) or when the page
+        // is already at that hash — so reset the filter and force the scroll.
+        var url = new URL(link.href, window.location.href);
+        if (url.pathname === window.location.pathname && url.hash.length > 1) {
+          var target = document.querySelector(url.hash);
+          if (target) {
+            event.preventDefault();
+            var allBtn = document.querySelector('.collateral-controls button[data-filter="all"]');
+            if (allBtn && !allBtn.classList.contains('active')) {
+              allBtn.click();
+            }
+            history.pushState(null, '', url.hash);
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        }
       });
     });
     // Close on Escape for keyboard users.
