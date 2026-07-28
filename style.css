@@ -119,11 +119,6 @@ ul { list-style: none; }
   gap: 0.25rem;
 }
 
-/* Suppress the mobile menu slide-transition until after first paint so it
-   doesn't animate down across the logo on initial load. JS adds .nav-animate
-   to <html> once the hidden state has painted. */
-html:not(.nav-animate) .nav-links { transition: none !important; }
-
 .nav-links a {
   padding: 0.45rem 0.95rem;
   border-radius: 999px;
@@ -1416,12 +1411,19 @@ html:not(.nav-animate) .nav-links { transition: none !important; }
     gap: 0.25rem;
     border-bottom: 1px solid var(--border);
     transform: translateY(-110%);
-    transition: transform 0.28s var(--ease);
+    opacity: 0;
+    visibility: hidden;
+    transition: transform 0.28s var(--ease), opacity 0.28s var(--ease), visibility 0s linear 0.28s;
     box-shadow: 0 8px 24px rgba(0,0,0,0.1);
     z-index: 99;
   }
 
-  .nav-links.open { transform: translateY(0); }
+  .nav-links.open {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+    transition: transform 0.28s var(--ease), opacity 0.28s var(--ease), visibility 0s;
+  }
   .nav-links a { padding: 0.65rem 1rem; border-radius: var(--radius-sm); }
   .nav-toggle { display: flex; }
 
@@ -1942,12 +1944,19 @@ html:not(.nav-animate) .nav-links { transition: none !important; }
     gap: 0.25rem;
     border-bottom: 1px solid var(--border);
     transform: translateY(-110%);
-    transition: transform 0.28s var(--ease);
+    opacity: 0;
+    visibility: hidden;
+    transition: transform 0.28s var(--ease), opacity 0.28s var(--ease), visibility 0s linear 0.28s;
     box-shadow: 0 8px 24px rgba(0,0,0,0.1);
     z-index: 99;
   }
 
-  .nav-links.open { transform: translateY(0); }
+  .nav-links.open {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+    transition: transform 0.28s var(--ease), opacity 0.28s var(--ease), visibility 0s;
+  }
   .nav-links a,
   .work-trigger {
     padding: 0.65rem 1rem;

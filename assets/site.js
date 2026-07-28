@@ -7,14 +7,6 @@
     });
   }
 
-  // Enable the mobile menu's slide transition only after the initial hidden
-  // state has painted, so it doesn't animate across the logo on first load.
-  requestAnimationFrame(function () {
-    requestAnimationFrame(function () {
-      document.documentElement.classList.add('nav-animate');
-    });
-  });
-
   var toggle = document.getElementById('nav-toggle');
   var links = document.getElementById('nav-links');
   if (toggle && links) {
