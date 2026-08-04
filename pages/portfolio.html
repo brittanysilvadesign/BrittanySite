@@ -97,6 +97,18 @@
         </a>
       </div>
       <div class="gallery-grid">
+        <figure class="gallery-item gallery-video" data-medium="digital">
+          <div class="gallery-video-embed">
+            <iframe src="https://player.vimeo.com/video/1078058258?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" title="What is the Transportation Improvement Program SM"></iframe>
+          </div>
+          <figcaption>What is the Transportation Improvement Program? &mdash; a short explainer breaking down the TPO&#8217;s five-year plan for funded transportation projects.</figcaption>
+        </figure>
+        <figure class="gallery-item gallery-video" data-medium="digital">
+          <div class="gallery-video-embed">
+            <iframe src="https://www.youtube.com/embed/b_el0wwZSyE?si=otx_9ZUatpKRu1Of" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <figcaption>Recurring news recap series for Polk County residents. Hosted on camera, edited and rewrote scripts for AP Style and clarity, published to county social channels.</figcaption>
+        </figure>
         <figure class="gallery-item" data-medium="digital" tabindex="0" role="button" aria-label="View Inside Polk 2024 Brittany Silva JC">
           <img loading="lazy" src="../assets/portfolio/public-sector/inside-polk-01-25-2024-brittany-silva-000200-jc.png" data-caption="Video thumbnail for Inside Polk, the county&#8217;s internal employee news series, featuring Brittany on camera." alt="Inside Polk 2024 Brittany Silva JC">
           <figcaption>Inside Polk 2024 Brittany Silva JC</figcaption>
@@ -573,11 +585,11 @@
     function showPrev() { if (lbIndex > 0) { lbIndex--; renderLb(); } }
     function showNext() { if (lbIndex < lbItems.length - 1) { lbIndex++; renderLb(); } }
 
-    document.querySelectorAll('.gallery-item').forEach(item => {
+    document.querySelectorAll('.gallery-item:not(.gallery-video)').forEach(item => {
       const isPdf = item.classList.contains('pdf-card');
       const act = (e) => {
         if (isPdf) e.preventDefault();
-        const visible = Array.from(document.querySelectorAll('.gallery-item'))
+        const visible = Array.from(document.querySelectorAll('.gallery-item:not(.gallery-video)'))
           .filter(el => el.dataset.hidden !== 'true');
         openLb(visible, visible.indexOf(item));
       };
@@ -595,5 +607,6 @@
       else if (e.key === 'ArrowRight') showNext();
     });
   </script>
+  <script src="https://player.vimeo.com/api/player.js"></script>
 </body>
 </html>
